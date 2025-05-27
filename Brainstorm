@@ -1,2 +1,20 @@
 -sprawdzenie klustrowania po przez sprawdzenie ile najlepszych hitów z całej bazy znajduje się w najlepszym klastrze
 -przeżucenie związków do 50 wymiarowej przestrzeni
+
+
+pseudokod:
+class claster = class dictionary or class dataframe
+//claster of clasters
+claster_example1 = { representative_smiles_1: cluster1,
+                    representative_smiles_2: cluster2, ... }
+//smallest cluster with only compounds and no smaller clusters
+claster_example2 = dataframe[smiles1, smiles2, ...]
+
+def distance(smiles, smiles):{return float}
+
+def calsterize(dataframe[smiles], distance):{return claster}
+
+def find_similar_compunds(original_compound, claster, n):{return dataframe[with n smiles]}
+def find_similar_compunds(original_compound, dataframe[with all compunds], n):{return dataframe[with n smiles]}
+
+
